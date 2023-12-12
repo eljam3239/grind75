@@ -1,0 +1,20 @@
+for clause in clauses:
+    
+    clauseVal = True
+
+    for literal in clause:
+        
+        if !literal in clause:  #if literal's inverse in clause, clause is false, go next clause
+            clauseVal = False
+            break out of inner for loop
+    
+    #if end of clasue reached and no literal has its inverse in the clause, the clause is satisfiable
+    clauseVal = True 
+
+    #if theres a satisfiable clause, we know the DNF of the boolean expression is satisfiable
+    return True        
+        
+    
+        
+            
+    
