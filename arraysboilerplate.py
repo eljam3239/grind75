@@ -1,5 +1,5 @@
-def insertEnd(arr,n,length, capaacity):
-    if length<capacity):
+def insertEnd(arr,n,length, capacity):
+    if length<capacity:
         arr[length]=n
 
 def removeEnd(arr,length):
