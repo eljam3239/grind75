@@ -51,3 +51,9 @@ class LinkedList:
             res.append(curr.val)
             curr = curr.next
         return res
+    def print(self):
+        curr = self.head.next
+        while curr:
+            print(curr.val, " -> ", end = "")
+            curr = curr.next
+        print()
